@@ -14,5 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
 Route::get('/sensorData', 'ChairController@captureSensorDetails');
 Route::get('/rules', 'RulesController@getRules');
+Route::get('/auth', 'AuthController@getAuth');

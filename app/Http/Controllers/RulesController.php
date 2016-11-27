@@ -8,6 +8,7 @@ use Illuminate\Http\Request;
 class RulesController extends Controller
 {
     public function getRules(){
-        return Rule::all();
+       // return Rule::all();
+        return "Lakith is live";
     }
 }
